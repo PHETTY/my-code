@@ -10,6 +10,7 @@ background-color:  #E2E2E2;;
     display: flex;
     justify-content: space-between;
     align-items: baseline;  
+    columns: 15px;
 }
 
 .nav {
@@ -60,5 +61,59 @@ a {
     column-gap:32px;
     margin: auto 18px;
 }
+#categorygrid {
+    margin: 20px 15%;
+    display: grid;
+    grid-template-rows:400px 400px 400px;
+    grid-template: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "thestory"
+    "come"
+    "keep" ;
+    text-align: center;    
+}
+#thestory {
+    grid-area:THE REVIVAL STORY;
+    background-color:white;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+  
+}
+#come {
+    grid-area: COME VISIT US;
+    background-color:rgba(123, 189, 75, 0.25);
+    margin: 20px;
+}
+#keep {
+    grid-area:KEEP UP WITH US IN THIS DECADE;
+    background-color: white;
+    margin: 20px;
+}
+.head {
+   font-size: x-large;
+   margin: 15px;
+   font-weight: 600;
+}
+.sectionhead1{
+    margin: -3px; 
+}
+p {margin: -3px;
+font-size: small; }
+  
+.header {
+    float: left;
+    margin-left: 40px;  
+}
+h4 {
+    width: 400px;
+    float: right;
+    text-align: justify;
+    margin-right: 32px;
+    margin-top: 50px;
 
-.category
+}
+
+
+
+
+    
